@@ -49,4 +49,10 @@ input.onButtonPressed(Button.A, function () {
   pins.digitalWritePin(DigitalPin.P16, 0)
   pins.digitalWritePin(DigitalPin.P15, 1)
   pins.digitalWritePin(DigitalPin.P14, 1)
+
+  // white
+  basic.showString('White')
+  pins.digitalWritePin(DigitalPin.P16, 1)
+  pins.digitalWritePin(DigitalPin.P15, 1)
+  pins.digitalWritePin(DigitalPin.P14, 1)
 })
